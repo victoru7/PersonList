@@ -13,6 +13,11 @@
 		7712312D24D9DF4B007C40C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7712312C24D9DF4B007C40C5 /* Assets.xcassets */; };
 		7712313024D9DF4B007C40C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7712312F24D9DF4B007C40C5 /* Preview Assets.xcassets */; };
 		7712313324D9DF4B007C40C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7712313124D9DF4B007C40C5 /* LaunchScreen.storyboard */; };
+		7712313D24D9E016007C40C5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712313C24D9E016007C40C5 /* Person.swift */; };
+		7712313F24D9E186007C40C5 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712313E24D9E186007C40C5 /* PersonRow.swift */; };
+		7712314124D9E821007C40C5 /* PersonListMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712314024D9E821007C40C5 /* PersonListMain.swift */; };
+		7712314324D9E864007C40C5 /* PersonListAdv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712314224D9E864007C40C5 /* PersonListAdv.swift */; };
+		7712314524D9EAC0007C40C5 /* PersonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712314424D9EAC0007C40C5 /* PersonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		7712312F24D9DF4B007C40C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7712313224D9DF4B007C40C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7712313424D9DF4B007C40C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7712313C24D9E016007C40C5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7712313E24D9E186007C40C5 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		7712314024D9E821007C40C5 /* PersonListMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListMain.swift; sourceTree = "<group>"; };
+		7712314224D9E864007C40C5 /* PersonListAdv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListAdv.swift; sourceTree = "<group>"; };
+		7712314424D9EAC0007C40C5 /* PersonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 		7712312524D9DF4A007C40C5 /* PersonList */ = {
 			isa = PBXGroup;
 			children = (
+				7712314024D9E821007C40C5 /* PersonListMain.swift */,
+				7712314424D9EAC0007C40C5 /* PersonDetail.swift */,
+				7712314224D9E864007C40C5 /* PersonListAdv.swift */,
 				7712312624D9DF4A007C40C5 /* AppDelegate.swift */,
+				7712313E24D9E186007C40C5 /* PersonRow.swift */,
+				7712313C24D9E016007C40C5 /* Person.swift */,
 				7712312824D9DF4A007C40C5 /* SceneDelegate.swift */,
 				7712312A24D9DF4A007C40C5 /* ContentView.swift */,
 				7712312C24D9DF4B007C40C5 /* Assets.xcassets */,
@@ -146,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7712313D24D9E016007C40C5 /* Person.swift in Sources */,
+				7712313F24D9E186007C40C5 /* PersonRow.swift in Sources */,
 				7712312724D9DF4A007C40C5 /* AppDelegate.swift in Sources */,
+				7712314124D9E821007C40C5 /* PersonListMain.swift in Sources */,
+				7712314524D9EAC0007C40C5 /* PersonDetail.swift in Sources */,
+				7712314324D9E864007C40C5 /* PersonListAdv.swift in Sources */,
 				7712312924D9DF4A007C40C5 /* SceneDelegate.swift in Sources */,
 				7712312B24D9DF4A007C40C5 /* ContentView.swift in Sources */,
 			);
